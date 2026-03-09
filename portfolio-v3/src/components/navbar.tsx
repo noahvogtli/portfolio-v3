@@ -1,7 +1,6 @@
 import React from "react";
-import { Separator } from "@/components/ui/separator"
 import { SidebarTrigger } from "@/components/ui/sidebar"
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,10 +22,10 @@ function Navbar() {
 
             <div className="justify-center items-center flex basis-2/4">
                     <div className="hidden md:flex text-sm font-medium">            
-                    <a href="#home"><p className="pr-8 hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">Home</p></a>
-                    <a href="#about"><p className="pr-8 hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">About</p></a>
-                    <a href="#projects"><p className="pr-8 hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">Projects</p></a>
-                    <a href="#contact"><p className="hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">Contact</p></a>
+                    <Link to="/#home"><p className="pr-8 hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">Home</p></Link>
+                    <Link to="/about"><p className="pr-8 hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">About</p></Link>
+                    <Link to="/#projects"><p className="pr-8 hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">Projects</p></Link>
+                    <Link to="/"><p className="hover:cursor-pointer hover:text-red-700 hover:transition-colors duration-300">Contact</p></Link>
                 </div>
             </div>
             <div className="flex basis-1/4 md:justify-end ">

@@ -12,14 +12,17 @@ import {
 } from "@/components/ui/sidebar"
 import { Home, User, Folder, Mail } from "lucide-react"
 
+import { Link } from "react-router-dom"
+import { Button } from "@/components/ui/button"
+
 function AppSidebar() {
     return (
         <UISidebar side="left" variant="sidebar" collapsible="offcanvas">
                 <SidebarHeader>
                     <div className="flex items-center justify-between w-full pt-2 pb-2 pl-2">
-                        <a href="/" className="text-lg font-semibold">
+                        <Link to="/" className="text-lg font-semibold">
                             Noah Vogtli
-                        </a>
+                        </Link>
                         <div className="pr-2">
                             <SidebarTrigger />
                         </div>
@@ -30,37 +33,37 @@ function AppSidebar() {
                     <SidebarMenu>
                         <SidebarMenuItem>
                             <SidebarMenuButton asChild>
-                                <a href="#home">
+                                <Link to="/">
                                     <Home />
                                     <span>Home</span>
-                                </a>
+                                </Link>
                             </SidebarMenuButton>
                         </SidebarMenuItem>
 
                         <SidebarMenuItem>
                             <SidebarMenuButton asChild>
-                                <a href="#about">
+                                <Link to="/about">
                                     <User />
                                     <span>About</span>
-                                </a>
+                                </Link>
                             </SidebarMenuButton>
                         </SidebarMenuItem>
 
                         <SidebarMenuItem>
                             <SidebarMenuButton asChild>
-                                <a href="#projects">
+                                <Link to="/projects">
                                     <Folder />
                                     <span>Projects</span>
-                                </a>
+                                </Link>
                             </SidebarMenuButton>
                         </SidebarMenuItem>
 
                         <SidebarMenuItem>
                             <SidebarMenuButton asChild>
-                                <a href="#contact">
+                                <Link to="/contact">
                                     <Mail />
                                     <span>Contact</span>
-                                </a>
+                                </Link>
                             </SidebarMenuButton>
                         </SidebarMenuItem>
                     </SidebarMenu>

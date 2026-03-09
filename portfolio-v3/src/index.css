@@ -7,9 +7,11 @@ html{
   background: white;
   font-family: "Open Sans", sans-serif;
   overflow-y: scroll;
+
 }
 
 html body[data-scroll-locked] {
   margin-right: 0 !important;
   padding-right: 0 !important;
 }
+

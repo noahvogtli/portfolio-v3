@@ -17,8 +17,8 @@ import { Separator } from "@/components/ui/separator"
 function Projects() {
     return(
         <>
-            <div className="flex flex-col items-center m-auto md:mt-5">
-                <h1 className="text-2xl font-semibold mb-10 border-b border-zinc-200 pb-5 w-full text-center">Projects</h1>            
+            <div className="md:w-7/24 w-3/4 flex flex-col items-center m-auto md:mt-5 pt-10">
+                <h1 className="text-2xl font-semibold mb-10 border-b border-zinc-200 pb-5 w-full text-center">Websites</h1>            
                 <Card className="relative mx-auto w-full max-w-lg overflow-hidden rounded-xl pt-0">
                     <div className="absolute inset-0 z-30 aspect-video" />
                     <img
@@ -57,7 +57,7 @@ function Projects() {
                     <CardDescription className="text-sm text-zinc-500">
                     HTML | CSS | JavaScript
                     </CardDescription>
-                    <CardDescription className="mt-2">JavaScript Wrestlers is a web-based simulation where users watch as wrestlers battle against each other. At the end of each match, a winner is named and moves on to the next round, until one wrestler remains. This was created as a take-home project portion of an interview.
+                    <CardDescription className="mt-2">JavaScript Wrestlers is a web-based simulation where users watch as wrestlers battle against each other. The game features a variety of moves, each with its own unique effects. At the end of each match, a winner is named and moves on to the next round, until one wrestler remains. This was created as a take-home project portion of an interview.
                     </CardDescription>
                 </CardHeader>
                 <CardFooter>
@@ -68,6 +68,7 @@ function Projects() {
                 </CardFooter>
                 </Card>
             </div>
+            <h1>Projects</h1>
         </>
     );
 }

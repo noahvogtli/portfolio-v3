@@ -8,7 +8,6 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog"
 import { Field, FieldGroup } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
@@ -70,9 +69,6 @@ function ContactModal({ open: controlledOpen, onOpenChange }) {
 
 return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
-      <DialogTrigger asChild>
-        <Button type="button" variant="outline">Contact</Button>
-      </DialogTrigger>
       <DialogContent className="sm:max-w-sm">
         {submitted ? (
           <>
