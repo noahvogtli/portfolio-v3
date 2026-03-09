@@ -48,7 +48,7 @@ function App() {
             <p className="mt-[5%] mb-[2%] text-center text-[15px]/7">I'm a Software Engineering student at Rochester Institute of Technology and current intern at Kodak. I'm passionate about building clean, reliable web applications using frameworks like React. Over the past 4 years, I've worked on various projects that have honed my skills in full-stack development and problem-solving.</p>
             <Socials onEmailClick={() => setIsContactOpen(true)} />
                 <Button asChild variant="link" className="md:mt-[10%] hover:cursor-pointer">
-                <Link to="/about">About Me ➡ </Link>
+                <Link to="/about">About Me → </Link>
                 </Button>
             <TechStack />
             <div id="projects"></div>
