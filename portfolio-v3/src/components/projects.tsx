@@ -12,6 +12,8 @@ import {
 import { Button } from "@/components/ui/button"
 import { FaGithub, FaLink} from 'react-icons/fa'
 import { Separator } from "@/components/ui/separator"
+import verseVisionLogo from '@/assets/versevisionlogo.png'
+import jsWrestlersImage from '@/assets/javascriptwrestlers.png'
 
 
 function Projects() {
@@ -22,7 +24,7 @@ function Projects() {
                 <Card className="relative mx-auto w-full max-w-lg overflow-hidden rounded-xl pt-0">
                     <div className="absolute inset-0 z-30 aspect-video" />
                     <img
-                        src="src/assets/versevisionlogo.png"
+                        src={verseVisionLogo}
                         alt="Event cover"
                         className="relative z-20 aspect-video w-full object-cover"
                     />
@@ -46,7 +48,7 @@ function Projects() {
                 <Card className="relative mx-auto w-full max-w-lg overflow-hidden rounded-xl pt-0 mt-20">
                     <div className="absolute inset-0 z-30 aspect-video" />
                     <img
-                        src="src/assets/javascriptwrestlers.png"
+                        src={jsWrestlersImage}
                         alt="Event cover"
                         className="relative z-20 aspect-video w-full object-cover"
                     />

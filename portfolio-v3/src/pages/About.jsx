@@ -1,10 +1,11 @@
 import React from 'react'
+import profileImage from '../assets/2285A3A2-F19C-40F2-A2FA-9A9BEA55350F.png'
 
 function About() {
 	return (
 		<main className="md:w-7/24 w-3/4 flex flex-col items-center m-auto md:mt-5 pt-30">
             <div className='size-[100px] rounded-full overflow-hidden shadow-sm'>
-              <img src='src/assets/2285A3A2-F19C-40F2-A2FA-9A9BEA55350F.png' alt="Portfolio Image" className='size-full object-cover object-[center_-5%] scale-150' />
+                            <img src={profileImage} alt="Portfolio Image" className='size-full object-cover object-[center_-5%] scale-150' />
             </div>
 			<div className="flex flex-col mt-5" id="about">
                 <h1 className="text-2xl font-semibold text-center">About Me:</h1>
