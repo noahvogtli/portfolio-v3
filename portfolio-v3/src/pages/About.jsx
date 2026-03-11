@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "../components/socials";
+import portrait from "../assets/portrait.png";
 
 function About() {
     return (
@@ -8,7 +9,7 @@ function About() {
             {/* Header */}
             <div className="flex flex-row items-center ">
                 <div className="w-28 h-28 md:w-46 md:h-46 rounded-full overflow-hidden shrink-0">
-                    <img src="/src/assets/portrait.png" alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
+                    <img src={portrait} alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
                 </div>
                 <div className="flex flex-col ml-[5%] text-left">
                     <h1 className="text-3xl md:text-5xl font-bold text-white whitespace-nowrap">About Me</h1>

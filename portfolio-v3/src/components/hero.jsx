@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Socials from "./socials";
 import TechStack from "./techstack";
 import { FaFolder, FaUser, FaFileAlt, FaExternalLinkAlt } from "react-icons/fa";
+import portrait from "../assets/portrait.png";
 
 function Hero() {
     return (
@@ -10,7 +11,7 @@ function Hero() {
         <div className="mt-48 flex flex-col items-start">
             <div className="flex flex-row items-center ">
                 <div className="w-28 h-28 md:w-46 md:h-46 rounded-full overflow-hidden shrink-0">
-                    <img src="/src/assets/portrait.png" alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
+                    <img src={portrait} alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
                 </div>
                 <div className="flex flex-col ml-[5%] text-left">
                     <h1 className="text-3xl md:text-7xl font-bold text-white whitespace-nowrap">Noah Vogtli</h1>
@@ -22,7 +23,7 @@ function Hero() {
             <div className="flex flex-row mt-8 mb-8 gap-6">
                 <Link to="/about" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-500"><FaUser />About</Link>
                 <a href="#projects" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaFolder />Projects</a>
-                <a href="public/NoahVogtliResume.pdf" target="_blank" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaFileAlt />Resume<FaExternalLinkAlt size={12} /></a>                
+                <a href="/NoahVogtliResume.pdf" target="_blank" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaFileAlt />Resume<FaExternalLinkAlt size={12} /></a>                
             </div>
             <TechStack />
         </div>
