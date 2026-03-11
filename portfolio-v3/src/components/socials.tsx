@@ -9,7 +9,7 @@ type SocialsProps = {
 function Socials({ onEmailClick }: SocialsProps) {
     return(
         <>
-        <div className="flex flex-row mt-8 gap-8 mb-8">
+        <div className="flex flex-row gap-8 mt-[5%]">
             <a href="https://www.linkedin.com/in/noahvogtli/" target="_blank">
                 <FaLinkedin size={22} className="hover:fill-red-800 hover:scale-110"/>
             </a>
