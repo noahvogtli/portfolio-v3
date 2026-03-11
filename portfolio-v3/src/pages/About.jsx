@@ -4,7 +4,7 @@ import portrait from "../assets/portrait.png";
 
 function About() {
     return (
-        <div className="flex flex-col mt-48 items-start" id="about">
+        <div className="flex flex-col mt-32 md:mt-48 items-start" id="about">
 
             {/* Header */}
             <div className="flex flex-row items-center ">
@@ -12,9 +12,9 @@ function About() {
                     <img src={portrait} alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
                 </div>
                 <div className="flex flex-col ml-[5%] text-left">
-                    <h1 className="text-3xl md:text-5xl font-bold text-white whitespace-nowrap">About Me</h1>
-                    <p className="text-left mt-[4%] text-neutral-500 italic md:whitespace-nowrap">Get to know me better through my experiences, projects, and hobbies</p>
-                    {/* <div className="invisible"><Socials /></div> */}
+                    <h1 className="text-2xl md:text-5xl font-bold text-white whitespace-nowrap md:mt-4">About Me</h1>
+                    <p className="text-left mt-[3%] text-neutral-500 italic md:whitespace-nowrap">Get to know me better through my experiences, projects, and hobbies</p>
+                    <div className="invisible"><Socials /></div>
                 </div>
             </div>
             <div className="mt-12 flex flex-col gap-12">
