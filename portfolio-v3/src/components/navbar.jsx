@@ -7,7 +7,6 @@ function Navbar() {
             <div className="w-[90dvw] md:w-[50dvw] mx-auto flex flex-row md:justify-start items-center gap-6 md:gap-10">
                 <a
                     href="https://www.noahvogtli.com"
-                    target="_blank"
                     rel="noreferrer"
                     className="inline-flex text-white hover:text-red-700 transition-colors duration-300"
                 >
