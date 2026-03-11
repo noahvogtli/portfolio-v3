@@ -19,7 +19,7 @@ function Hero() {
                     <Socials />
                 </div>
             </div>
-            <p className="md:text-lg mt-10 md:mt-8 text-neutral-500 text-left w-[100%]]">I'm a fourth-year Software Engineering student at Rochester Institute of Technology and current intern at Kodak. I'm passionate about building clean, reliable web applications using frameworks like React.</p>
+            <p className="md:text-lg mt-10 md:mt-8 text-neutral-500 text-left w-[100%]]">I'm a fourth-year student at Rochester Institute of Technology pursuing my Bachelor of Science in Software Engineering and current intern at Kodak.<br></br><br></br> I'm passionate about building clean, reliable web applications using frameworks like React.</p>
             <div className="flex flex-row mt-8 mb-8 md:gap-6 gap-4">
                 <Link to="/about" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-500"><FaUser />About</Link>
                 <a href="#projects" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaFolder />Projects</a>
