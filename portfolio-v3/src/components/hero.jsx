@@ -9,7 +9,7 @@ function Hero() {
     return (
         <>
         <div className="mt-32 md:mt-48 flex flex-col items-start">
-            <div className="flex flex-row items-center ">
+            <div className="flex flex-row items-start md:items-center">
                 <div className="w-28 h-28 md:w-46 md:h-46 rounded-full overflow-hidden shrink-0">
                     <img src={portrait} alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
                 </div>
