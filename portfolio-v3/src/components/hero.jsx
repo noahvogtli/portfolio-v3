@@ -13,7 +13,7 @@ function Hero() {
                 <div className="w-28 h-28 md:w-46 md:h-46 rounded-full overflow-hidden shrink-0">
                     <img src={portrait} alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
                 </div>
-                <div className="flex flex-col ml-[5%] text-left">
+                <div className="flex flex-col ml-[6%] text-left">
                     <h1 className="text-2xl md:text-5xl font-bold text-white whitespace-nowrap">Noah Vogtli</h1>
                     <p className="text-left mt-[4%] text-neutral-500 italic md:whitespace-nowrap">Software Engineering Student at RIT</p>
                     <Socials />
