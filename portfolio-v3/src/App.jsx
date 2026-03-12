@@ -1,24 +1,31 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/navbar'
 import Hero from './components/hero'
 import About from './pages/About'
 import Footer from './components/footer'
 
+function Layout() {
+  const location = useLocation();
+  const isResume = location.pathname === '/resume';
+
+  return (
+    <>
+      {!isResume && <Navbar />}
+      <Routes>
+        <Route path="/resume" element={<iframe src="/NoahVogtliResume.pdf" className="w-full h-screen" title="Resume" />} />
+        <Route path="/" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><Hero /></div>} />
+        <Route path="/about" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><About /></div>} />
+      </Routes>
+      {!isResume && <Footer />}
+    </>
+  );
+}
+
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <div className="w-[90dvw] md:w-[50dvw] mx-auto">
-        <Routes>
-          <Route path="/" element={
-            <Hero />
-            
-          } />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </div>
-      <Footer />
+      <Layout />
     </BrowserRouter>
   )
 }
