@@ -4,7 +4,7 @@ import portrait from "../assets/portrait.png";
 
 function About() {
     return (
-        <div className="flex flex-col mt-32 md:mt-48 items-start" id="about">
+        <div className="flex flex-col mt-32 md:mt-42 items-start" id="about">
 
             {/* Header */}
             <div className="flex flex-row items-start md:items-center">
