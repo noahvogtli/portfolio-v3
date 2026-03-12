@@ -25,7 +25,7 @@ function resumeLink() {
     if (isIOSDevice()) {
         window.open(resumeUrl, "_blank");
     } else {
-        window.location.href = "/resume";
+        window.open("/resume", "_blank");
     }
 }
 
