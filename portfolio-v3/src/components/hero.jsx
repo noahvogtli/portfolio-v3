@@ -59,7 +59,7 @@ function Hero() {
             <div className="flex flex-row mt-8 mb-8 md:gap-6 gap-4">
                 <Link to="/about" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-500"><FaUser />About</Link>
                 <a href="#projects" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaFolder />Projects</a>
-                <a href="/NoahVogtliResume.pdf" target="_blank" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaFileAlt />Resume<FaExternalLinkAlt size={12} className="hidden md:block"/></a>                
+                <a href="/resume" target="_blank" className="bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaFileAlt />Resume<FaExternalLinkAlt size={12} className="hidden md:block"/></a>                
             </div>
             <TechStack />
             <div className="mt-20 w-full">
