@@ -97,6 +97,7 @@ function Hero() {
                 </div>
             </div>
         </div>
+        <div id="projects"></div>
         </>
     )
 }
