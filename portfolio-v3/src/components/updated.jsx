@@ -1,31 +1,14 @@
 import React from "react";
 
-function formatCommitDate(commitDate) {
-  if (!commitDate) return "Unavailable";
+function getLatestCommit(){
 
-  const parsedDate = new Date(commitDate);
-  if (Number.isNaN(parsedDate.getTime())) return "Unavailable";
-
-  return new Intl.DateTimeFormat(undefined, {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-    timeZoneName: "short",
-  }).format(parsedDate);
 }
 
-function Updated() {
-  const lastCommitDate = formatCommitDate(import.meta.env.VITE_LAST_COMMIT_DATE);
 
+function Updated() {
   return (
-    <div className="updated">
-      <h2>Updated</h2>
-      <p>{lastCommitDate}</p>
-    </div>
+      <h2 className="italic text-[12px] text-white/50 mt-2">Updated 3/12/2026</h2>
   );
 }
 
 export default Updated;
-
