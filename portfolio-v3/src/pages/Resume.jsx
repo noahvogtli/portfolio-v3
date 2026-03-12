@@ -2,7 +2,11 @@ import React from "react";
 
 function Resume() {
     return (
-        <iframe src="/NoahVogtliResume.pdf" className="w-[100dvw] h-[100dvh]" title="Resume" />
+        <iframe
+            src="/NoahVogtliResume.pdf"
+            className="block w-screen max-w-full h-[100svh] border-0"
+            title="Resume"
+            />
     );
 }
 
