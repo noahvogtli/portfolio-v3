@@ -33,7 +33,7 @@ function Projects(){
                 <img src={lavishlandscapes} alt="Lavish Landscapes screenshot" className="w-full h-[50%] object-cover rounded-md"/>
                 <h1 className="text-lg">Lavish Landscapes</h1>
                 <p className="text-xs text-zinc-500">React | Netlify</p>
-                <p>Lavish Landscapes is a landscaping company that I built a fully functional website</p>
+                <p>Lavish Landscapes is a professional landscaping company website featuring service portfolios, project galleries, and an integrated contact system. Built with React for a responsive, modern user experience.</p>
                 <div className="flex flex-row gap-4 mt-auto">
                     <a href="https://www.lavishlandscapesny.com" target="_blank" className="flex-1 bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex justify-center items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaLink></FaLink>Visit</a>
                 </div>
