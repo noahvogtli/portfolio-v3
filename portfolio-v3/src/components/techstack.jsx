@@ -7,6 +7,7 @@ const stack = [
     { icon: <SiJavascript />,   label: "JavaScript",   color: "text-yellow-400" },
     { icon: <SiTypescript />,   label: "TypeScript",   color: "text-blue-400" },
     { icon: <SiTailwindcss />,  label: "Tailwind CSS", color: "text-cyan-500" },
+    { icon: <SiVite />,         label: "Vite",         color: "text-purple-400" },
     { icon: <FaJava />,         label: "Java",         color: "text-orange-400" },
     { icon: <SiSpringboot />,   label: "Spring Boot",  color: "text-green-500" },
     { icon: <FaPython />,       label: "Python",       color: "text-sky-400" },
@@ -14,15 +15,13 @@ const stack = [
     { icon: <SiPostgresql />,   label: "PostgreSQL",   color: "text-blue-500" },
     { icon: <FaDocker />,       label: "Docker",       color: "text-blue-400" },
     { icon: <FaAws />,          label: "AWS",          color: "text-orange-400" },
-    { icon: <FaGithub />,       label: "GitHub",       color: "text-white" },
-    { icon: <SiVite />,         label: "Vite",         color: "text-purple-400" },
 ];
 
 function TechStack() {
     return (
         <div className="mt-8 w-full">
             <p className="text-neutral-500 text-sm uppercase tracking-widest mb-3">Tech Stack</p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 ">
                 {stack.map(({ icon, label, color }) => (
                     <div
                         key={label}
