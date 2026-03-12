@@ -64,7 +64,7 @@ function Hero() {
             <TechStack />
             <div className="mt-20 w-full">
                 <div ref={calendarScrollRef} className="bg-[#1e1e1e] border border-neutral-700 rounded-xl p-6 overflow-x-auto">
-                    <div ref={calendarContentRef} className="min-w-max text-neutral-300">
+                    <div ref={calendarContentRef} className="min-w-max text-neutral-300 md:pr-0 pr-6">
                         <GitHubCalendar
                             username="noahvogtli"
                             colorScheme="dark"
