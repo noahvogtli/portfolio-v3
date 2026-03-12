@@ -4,6 +4,7 @@ import Navbar from './components/navbar'
 import Hero from './components/hero'
 import About from './pages/About'
 import Footer from './components/footer'
+import Resume from './pages/Resume'
 
 function Layout() {
   const location = useLocation();
@@ -13,7 +14,7 @@ function Layout() {
     <>
       {!isResume && <Navbar />}
       <Routes>
-        <Route path="/resume" element={<iframe src="/NoahVogtliResume.pdf" className="w-full h-screen" title="Resume" />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><Hero /></div>} />
         <Route path="/about" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><About /></div>} />
       </Routes>
