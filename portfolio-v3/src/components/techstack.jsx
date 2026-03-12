@@ -25,7 +25,7 @@ function TechStack() {
                 {stack.map(({ icon, label, color }) => (
                     <div
                         key={label}
-                        className="flex items-center gap-2 bg-neutral-800 border border-neutral-700 rounded-xl px-3 py-2 text-sm text-neutral-300"
+                        className="flex items-center gap-2 bg-neutral-800 border border-neutral-700 rounded-xl px-3 py-2 text-sm text-neutral-300 select-none"
                     >
                         <span className={`text-base ${color}`}>{icon}</span>
                         {label}

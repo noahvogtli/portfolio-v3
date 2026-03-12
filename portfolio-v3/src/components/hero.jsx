@@ -66,7 +66,7 @@ function Hero() {
         <div className="mt-32 md:mt-42 flex flex-col items-start">
             <div className="flex flex-row items-start md:items-center">
                 <div className="w-28 h-28 md:w-46 md:h-46 rounded-full overflow-hidden shrink-0">
-                    <img src={portrait} alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155"/>
+                    <img src={portrait} alt="Portrait of Noah" className="w-full h-full object-cover object-[50%_-10%] scale-155 drag select-none pointer-events-none" draggable="false" />
                 </div>
                 <div className="flex flex-col ml-[6%] text-left">
                     <h1 className="text-2xl md:text-5xl font-bold text-white whitespace-nowrap">Noah Vogtli</h1>
