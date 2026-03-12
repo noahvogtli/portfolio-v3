@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 html{
   scroll-behavior: smooth;
   background-color: #171717;
