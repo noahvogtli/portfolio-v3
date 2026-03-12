@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const RESUME_URL = "/NoahVogtliResume.pdf";
+const RESUME_URL = "https://www.noahvogtli.com/NoahVogtliResume.pdf";
 
 function isIOSDevice() {
     if (typeof navigator === "undefined") {
