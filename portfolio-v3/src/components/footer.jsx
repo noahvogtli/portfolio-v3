@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Updated from "./updated";
 
 function Footer() {
     return (
@@ -10,6 +11,7 @@ function Footer() {
                     <Link to="/policy" className="text-neutral-400 hover:text-white transition-colors duration-200">Privacy Policy</Link>
                 </p>
             </div>
+            <Updated />
         </footer>
     )
 }
