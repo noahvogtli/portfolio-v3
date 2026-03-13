@@ -14,6 +14,17 @@ function Layout() {
   const isResume = location.pathname === '/resume'
 
   useEffect(() => {
+    const baseUrl = 'https://www.noahvogtli.com'
+    let canonical = document.querySelector("link[rel='canonical']")
+    if (!canonical) {
+      canonical = document.createElement('link')
+      canonical.setAttribute('rel', 'canonical')
+      document.head.appendChild(canonical)
+    }
+    canonical.setAttribute('href', baseUrl + location.pathname)
+  }, [location.pathname])
+
+  useEffect(() => {
     if (location.hash) {
       const el = document.querySelector(location.hash)
       if (el) {

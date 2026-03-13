@@ -20,7 +20,7 @@ const stack = [
 function TechStack() {
     return (
         <div className="mt-8 w-full">
-            <p className="text-neutral-500 text-sm uppercase tracking-widest mb-3">Tech Stack</p>
+            <h2 className="text-neutral-500 text-sm uppercase tracking-widest mb-3">Tech Stack</h2>
             <div className="flex flex-wrap gap-4 ">
                 {stack.map(({ icon, label, color }) => (
                     <div

@@ -21,7 +21,7 @@ function About() {
 
                 {/* Background */}
                 <section>
-                    <p className="text-xs text-neutral-500 uppercase tracking-widest mb-4">Background</p>
+                    <h2 className="text-xs text-neutral-500 uppercase tracking-widest mb-4">Background</h2>
                     <div className="bg-[#1e1e1e] border border-neutral-700 rounded-xl p-8 flex flex-col gap-4 text-neutral-300 text-sm leading-relaxed">
                         I am a fourth-year Software Engineering student at the Rochester Institute of Technology, where I focus on full-stack development, clean software architecture, and applying software engineering principles to real-world problems.
 
@@ -35,7 +35,7 @@ function About() {
 
                 {/* Experience */}
                 <section>
-                    <p className="text-xs text-neutral-500 uppercase tracking-widest mb-4">Experience</p>
+                    <h2 className="text-xs text-neutral-500 uppercase tracking-widest mb-4">Experience</h2>
                     <div className="bg-[#1e1e1e] border border-neutral-700 rounded-xl p-8 flex flex-col gap-2">
                         <div className="flex items-start justify-between flex-wrap gap-2">
                             <div>
@@ -54,7 +54,7 @@ function About() {
 
                 {/* Outside of Work */}
                 <section>
-                    <p className="text-xs text-neutral-500 uppercase tracking-widest mb-4">Outside of Code</p>
+                    <h2 className="text-xs text-neutral-500 uppercase tracking-widest mb-4">Outside of Code</h2>
                     <div className="bg-[#1e1e1e] border border-neutral-700 rounded-xl p-8 text-neutral-300 text-sm leading-relaxed">
                         <p>Outside of software engineering, I enjoy playing and watching sports — especially basketball. I also love traveling, exploring new places, and trying out new restaurants and cuisines.</p>
                     </div>
