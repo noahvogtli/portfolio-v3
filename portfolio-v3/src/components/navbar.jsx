@@ -6,6 +6,7 @@ function Navbar() {
         <nav className="fixed top-0 left-0 w-full bg-[#171717] text-white p-4 pb-3 z-50">
             <div className="w-[90dvw] md:w-[50dvw] mx-auto flex flex-row md:justify-start items-center gap-6 md:gap-8 text-sm md:text-base">
                 <Link to="/"
+                    aria-label="Go to home page"
                     className="inline-flex text-white hover:text-red-700 transition-colors duration-300"
                 >
                 <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0, 0, 400,400">

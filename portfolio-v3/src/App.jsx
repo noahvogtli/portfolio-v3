@@ -38,13 +38,15 @@ function Layout() {
   return (
     <>
       {!isResume && <Navbar />}
-      <Routes>
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><Hero /><div><Projects /></div></div>} />
-        <Route path="/about" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><About /></div>} />
-        <Route path="/policy" element={<Policy />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+      <main id="main-content">
+        <Routes>
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><Hero /><div><Projects /></div></div>} />
+          <Route path="/about" element={<div className="w-[90dvw] md:w-[50dvw] mx-auto"><About /></div>} />
+          <Route path="/policy" element={<Policy />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </main>
       {!isResume && <Footer />}
     </>
   )
