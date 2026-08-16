@@ -53,12 +53,12 @@ function About() {
                 </section>
 
                 {/* Outside of Work */}
-                <section>
+                {/* <section>
                     <h2 className="text-xs text-neutral-500 uppercase tracking-widest mb-4">Outside of Code</h2>
                     <div className="bg-[#1e1e1e] border border-neutral-700 rounded-xl p-8 text-neutral-300 text-sm leading-relaxed">
                         <p>Outside of software engineering, I enjoy playing and watching sports — especially basketball. I also love traveling, exploring new places, and trying out new restaurants and cuisines.</p>
                     </div>
-                </section>
+                </section> */}
 
             </div>
         </div>

@@ -3,7 +3,8 @@ import versevision from "../assets/versevision.png";
 import javascriptwrestlers from "../assets/javascriptwrestlers.png";
 import digitalmedia from "../assets/21digitalmedia.png";
 import {FaGithub, FaLink} from "react-icons/fa";
-import lavishlandscapes from "../assets/lavishlandscapes.png";
+import lavishlandscapes from "../assets/Lavish_SSI.png";
+import bladez from "../assets/Bladez_SSI_V2.png";
 
 function Projects(){
     return (
@@ -36,6 +37,15 @@ function Projects(){
                 <p>Lavish Landscapes is a professional landscaping company website featuring service portfolios, project galleries, and an integrated contact system. Built with React for a responsive, modern user experience.</p>
                 <div className="flex flex-row gap-4 mt-auto">
                     <a href="https://www.lavishlandscapesny.com" target="_blank" rel="noreferrer" aria-label="Visit the Lavish Landscapes website" className="flex-1 bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex justify-center items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaLink></FaLink>Visit</a>
+                </div>
+            </div>
+            <div className="bg-[#1e1e1e] border border-neutral-700 rounded-xl p-4 flex flex-col gap-4 text-neutral-300 text-sm leading-relaxed flex-2 h-[100%] hover:shadow-2xl hover:translate-y-[-2px] transition-all duration-300">
+                <img src={bladez} alt="Bladez Property Services Screenshot" className="w-full h-[50%] object-cover rounded-md"/>
+                <h3 className="text-lg">Bladez Property Services</h3>
+                <p className="text-xs text-zinc-500">React | Netlify</p>
+                <p>Bladez Property Services is a locally owned and operated company serving the Greater Rochester area.</p>
+                <div className="flex flex-row gap-4 mt-auto">
+                    <a href="https://bladezservices.com/" target="_blank" rel="noreferrer" aria-label="Bladez Property Services" className="flex-1 bg-neutral-800 rounded-xl pl-4 pr-4 pt-2 pb-2 border border-neutral-700 inline-flex justify-center items-center gap-2 transition-colors duration-200 hover:bg-neutral-700 hover:border-neutral-600"><FaLink></FaLink>Visit</a>
                 </div>
             </div>
             <div className="bg-[#1e1e1e] border border-neutral-700 rounded-xl p-4 flex flex-col gap-4 text-neutral-300 text-sm leading-relaxed flex-2 h-[100%] hover:shadow-2xl hover:translate-y-[-2px] transition-all duration-300">
